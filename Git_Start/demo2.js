@@ -29,10 +29,17 @@ console.log(document.images);*/
 //header.style.borderBottom = 'solid 3px #000';
 
 
-var itemElement = document.getElementById("item");
+//var itemElement = document.getElementById("item");
 
-itemElement.style.fontWeight = "bold";
-itemElement.style.color = "green";
+//itemElement.style.fontWeight = "bold";
+//itemElement.style.color = "green";
 
+
+// GETELEMENT BY CLASS NAME//
+//var items=document.getElementsByClassName('list-group-item');
+//console.log(items);
+
+var items=document.getElementsByClassName('list-group-item');
+console.log(items);
 
 
